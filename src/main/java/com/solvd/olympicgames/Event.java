@@ -13,7 +13,7 @@ public class Event {
         public void main(String[] args) {
             Scanner myObj = new Scanner(System.in);
 
-            System.out.println("Enter name of Event you would like to see, and which day :");
+            System.out.println("What  Event you would like to see, and which day :");
 
             String name = myObj.nextLine();
             int day = myObj.nextInt();
