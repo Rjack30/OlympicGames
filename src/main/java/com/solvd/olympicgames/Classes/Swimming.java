@@ -1,11 +1,13 @@
-package main.java.com.solvd.olympicgames;
+package main.java.com.solvd.olympicgames.Classes;
+import util.Scanner;
+import main.java.com.solvd.olympicgames.Russia;
 
-public class Swimming {
+public abstract class Swimming {
 
     int Russia[];
     int  Jamaica[];
-    Russia= new int[5];
-    Jamaica= int[5];
+    main.java.com.solvd.olympicgames.Russia= new int[5];
+    main.java.com.solvd.olympicgames.Jamaica= int[5];
     int counter1=0;
     int counter2=0;
     int k = 0;
@@ -44,7 +46,12 @@ public class Swimming {
       else{
         System.out.println("Jamaica has won the game.");
     }
+
+    public abstract void spray();
 }
+
+
+
 
 
 

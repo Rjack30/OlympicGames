@@ -1,6 +1,7 @@
-package main.java.com.solvd.olympicgames;
+package main.java.com.solvd.olympicgames.Classes;
 
-public class Volleyball {
+public class VolleyBall {
+
     int Germany[];
     int  China[];
     Germany=new int[5];
@@ -43,4 +44,10 @@ public class Volleyball {
       else{
         System.out.println("China has won the game.");
     }
-    }
+}
+
+
+
+
+
+}
