@@ -3,6 +3,7 @@ package main.java.com.solvd.olympicgames.Classes;
 
 import java.util.Arrays;
 import java.util.Scanner;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 import java.time.LocalDateTime;
@@ -26,9 +27,7 @@ public class Main {
 
         Scanner keyboard = new Scanner(System.in);
 
-        int month;
         int day = 0;
-        int year;
         SportEvent sportEvent = new SportEvent();
 
 
@@ -36,7 +35,7 @@ public class Main {
 
         System.out.println("Welcome to the 2022 OlympicGames");
         System.out.println("What Event would you like to see today");
-        int days = keyboard.nextInt();
+
 
         System.out.println("For a " + day + "what sport event would you like to see");
         System.out.println("[1] Baseball");

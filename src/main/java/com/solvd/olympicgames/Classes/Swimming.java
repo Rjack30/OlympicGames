@@ -1,53 +1,45 @@
 package main.java.com.solvd.olympicgames.Classes;
-import util.Scanner;
-import main.java.com.solvd.olympicgames.Russia;
 
-public abstract class Swimming {
-
-    int Russia[];
-    int  Jamaica[];
-    main.java.com.solvd.olympicgames.Russia= new int[5];
-    main.java.com.solvd.olympicgames.Jamaica= int[5];
-    int counter1=0;
-    int counter2=0;
-    int k = 0;
+import java.util.Scanner;
 
 
-        for (int i=0;i<=4;i++){
-        Scanner scanint = new Scanner(System.in);
-        System.out.println("Enter the number of points Russia earned in Match " + (i+1));
-        Germany[i] = scanint.nextInt();
-        System.out.println("Enter the number of points Germany earned in Match " + (i+1));
-        China[i] = scanint.nextInt();
-
-        if (Russia[i] < 1000 & Jamaica[i] > 1000){
-            System.out.println("Then Jamaica has won!!!");
-            System.out.println("Enter the number of points Russia earned in Match " + (i+1));
-            Russia[i] = scanint.nextInt();
-            System.out.println("Enter the number of points Jamaica earned in Match " + (i+1));
-            Jamaica[i] = scanint.nextInt();
+public  class Swimming {
+    public static void main(String[] args) {
+        System.out.println("Do you want to watch basketball game? (Y/N)");
+        Scanner userinput = new Scanner(System.in);
+        String answer = userinput.nextLine();
+        boolean play = false;
+        switch (answer) {
+            case "y":
+                System.out.println("Yes!");
+                play = true;
+                break;
+            case "n":
+                System.out.println("No!");
+                break;
+            default:
+                System.out.println("Never mind");
+                break;
         }
+        // if play is true
+        if(play) {
+            System.out.println("How many days? (1,2,3,4");
+            Scanner dayinput = new Scanner(System.in);
+            int day = dayinput.nextInt();
 
-        else  (Russia[i] >1000 & China[i] < 1000 {
-            System.out.println(" Then Russia has won!!!");
-            System.out.println("Enter the number of points Russia earned in Match " + (i+1));
-            Germany[i] = scanint.nextInt();
-            System.out.println("Enter the number of points Jamaica earned in Match " + (i+1));
-            China[i] = scanint.nextInt();
+            if(day == 1) {
+                System.out.println("Do you want to watch: "+day+" day! ");
+            } else if (day == 2) {
+                System.out.println("Do you want to watch: "+day+" day! ");
+            } else if (day == 3) {
+                System.out.println("Do you want to watch: "+day+" day! ");
+            } else if (day == 4) {
+                System.out.println("Do you want to watch: "+day+" day! ");
+            }
+        }else{
+            System.out.println("Bye have a nice day");
         }
-
-        if (Jamaica[i] < Russia[i]){
-            counter1++;}
-        else{ counter2++;}
-
     }
-     if (counter1 > counter2)  {
-        System.out.println("Russia has won the game.");}
-      else{
-        System.out.println("Jamaica has won the game.");
-    }
-
-    public abstract void spray();
 }
 
 
@@ -60,4 +52,4 @@ public abstract class Swimming {
 
 
 
-}
+

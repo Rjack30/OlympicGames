@@ -1,53 +1,44 @@
 package main.java.com.solvd.olympicgames.Classes;
 
+import java.util.Scanner;
+
 public class VolleyBall {
 
-    int Germany[];
-    int  China[];
-    Germany=new int[5];
-    China= int[5];
-    int counter1=0;
-    int counter2=0;
-    int k = 0;
-
-
-        for (int i=0;i<=4;i++){
-        Scanner scanint = new Scanner(System.in);
-        System.out.println("Enter the number of points Germany earned in Match " + (i+1));
-        Germany[i] = scanint.nextInt();
-        System.out.println("Enter the number of points China earned in Match " + (i+1));
-        China[i] = scanint.nextInt();
-
-        if (Germany[i] < 25 & China[i] > 25){
-            System.out.println("Then China has won!!!");
-            System.out.println("Enter the number of points Germany earned in Match " + (i+1));
-            Germany[i] = scanint.nextInt();
-            System.out.println("Enter the number of points China earned in Match " + (i+1));
-            China[i] = scanint.nextInt();
+    public static void main(String[] args) {
+        System.out.println("Do you want to watch basketball game? (Y/N)");
+        Scanner userinput = new Scanner(System.in);
+        String answer = userinput.nextLine();
+        boolean play = false;
+        switch (answer) {
+            case "y":
+                System.out.println("Yes!");
+                play = true;
+                break;
+            case "n":
+                System.out.println("No!");
+                break;
+            default:
+                System.out.println("Never mind");
+                break;
         }
+        // if play is true
+        if(play) {
+            System.out.println("How many days? (1,2,3,4");
+            Scanner dayinput = new Scanner(System.in);
+            int day = dayinput.nextInt();
 
-        else  (Germany[i] >25 & China[i] < 25 {
-            System.out.println(" Then Germany has won!!!");
-            System.out.println("Enter the number of points Germany earned in Match " + (i+1));
-            Germany[i] = scanint.nextInt();
-            System.out.println("Enter the number of points China earned in Match " + (i+1));
-            China[i] = scanint.nextInt();
+            if(day == 1) {
+                System.out.println("Do you want to watch: "+day+" day! ");
+            } else if (day == 2) {
+                System.out.println("Do you want to watch: "+day+" day! ");
+            } else if (day == 3) {
+                System.out.println("Do you want to watch: "+day+" day! ");
+            } else if (day == 4) {
+                System.out.println("Do you want to watch: "+day+" day! ");
+            }
+        }else{
+            System.out.println("Bye have a nice day");
         }
-
-        if (China[i] < Germany[i]){
-            counter1++;}
-        else{ counter2++;}
-
-    }
-     if (counter1 > counter2)  {
-        System.out.println("Germany has won the game.");}
-      else{
-        System.out.println("China has won the game.");
     }
 }
 
-
-
-
-
-}
