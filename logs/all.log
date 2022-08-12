@@ -1,0 +1,30 @@
+2022-08-10 15:04:37,026 DEBUG m.j.c.s.o.C.Cities [main] Some debug log
+2022-08-10 15:04:37,047 INFO m.j.c.s.o.C.Cities [main] Person1: [Jonh Gold]
+2022-08-10 15:04:37,066 INFO m.j.c.s.o.C.Cities [main] Car2: [Tesla Model X(2020), owned by [James Miller]]
+2022-08-10 15:04:37,344 WARN m.j.c.s.o.C.Cities [main] Warning accrued at 2022-08-10T15:04:37.306106500
+2022-08-10 15:04:37,346 ERROR m.j.c.s.o.C.Cities [main] Error accrued at 2022-08-10T15:04:37.345780300
+2022-08-10 15:04:37,355 FATAL m.j.c.s.o.C.Cities [main] Serious problem with car [Tesla Model S(2020), owned by [Jonh Gold]] accrued at 2022-08-10T15:04:37.347781200
+2022-08-10 15:06:45,501 DEBUG m.j.c.s.o.C.Cities [main] Some debug log
+2022-08-10 15:06:45,518 INFO m.j.c.s.o.C.Cities [main] Person1: [Jonh Gold]
+2022-08-10 15:06:45,542 INFO m.j.c.s.o.C.Cities [main] Car2: [Tesla Model X(2020), owned by [James Miller]]
+2022-08-10 15:06:45,564 WARN m.j.c.s.o.C.Cities [main] Warning accrued at 2022-08-10T15:06:45.556858800
+2022-08-10 15:06:45,565 ERROR m.j.c.s.o.C.Cities [main] Error accrued at 2022-08-10T15:06:45.565861600
+2022-08-10 15:06:45,576 FATAL m.j.c.s.o.C.Cities [main] Serious problem with car [Tesla Model S(2020), owned by [Jonh Gold]] accrued at 2022-08-10T15:06:45.566862500
+2022-08-10 15:08:48,366 DEBUG m.j.c.s.o.C.Cities [main] Some debug log
+2022-08-10 15:08:48,383 INFO m.j.c.s.o.C.Cities [main] Person1: [Jonh Gold]
+2022-08-10 15:08:48,400 INFO m.j.c.s.o.C.Cities [main] Car2: [Tesla Model X(2020), owned by [James Miller]]
+2022-08-10 15:08:48,416 WARN m.j.c.s.o.C.Cities [main] Warning accrued at 2022-08-10T15:08:48.413982800
+2022-08-10 15:08:48,418 ERROR m.j.c.s.o.C.Cities [main] Error accrued at 2022-08-10T15:08:48.417984400
+2022-08-10 15:08:48,427 FATAL m.j.c.s.o.C.Cities [main] Serious problem with car [Tesla Model S(2020), owned by [Jonh Gold]] accrued at 2022-08-10T15:08:48.418982200
+2022-08-10 15:11:50,730 DEBUG m.j.c.s.o.C.Cities [main] Some debug log
+2022-08-10 15:11:50,770 INFO m.j.c.s.o.C.Cities [main] Person1: [Jonh Gold]
+2022-08-10 15:11:50,796 INFO m.j.c.s.o.C.Cities [main] Car2: [Tesla Model X(2020), owned by [James Miller]]
+2022-08-10 15:11:50,815 WARN m.j.c.s.o.C.Cities [main] Warning accrued at 2022-08-10T15:11:50.810192
+2022-08-10 15:11:50,817 ERROR m.j.c.s.o.C.Cities [main] Error accrued at 2022-08-10T15:11:50.816193100
+2022-08-10 15:11:50,826 FATAL m.j.c.s.o.C.Cities [main] Serious problem with car [Tesla Model S(2020), owned by [Jonh Gold]] accrued at 2022-08-10T15:11:50.817192200
+2022-08-10 15:13:57,931 DEBUG m.j.c.s.o.C.Cities [main] Some debug log
+2022-08-10 15:13:57,946 INFO m.j.c.s.o.C.Cities [main] Person1: [Jonh Gold]
+2022-08-10 15:13:57,965 INFO m.j.c.s.o.C.Cities [main] Car2: [Tesla Model X(2020), owned by [James Miller]]
+2022-08-10 15:13:57,984 WARN m.j.c.s.o.C.Cities [main] Warning accrued at 2022-08-10T15:13:57.981615100
+2022-08-10 15:13:57,986 ERROR m.j.c.s.o.C.Cities [main] Error accrued at 2022-08-10T15:13:57.985618100
+2022-08-10 15:13:57,994 FATAL m.j.c.s.o.C.Cities [main] Serious problem with car [Tesla Model S(2020), owned by [Jonh Gold]] accrued at 2022-08-10T15:13:57.986617300
