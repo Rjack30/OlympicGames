@@ -1,4 +1,4 @@
-package main.java.com.solvd.olympicgames.Classes;
+package com.solvd.olympicgames.Classes;
 
 
 import java.util.Arrays;
@@ -46,8 +46,9 @@ public class Main {
 
         if (value==1){
             System.out.println("Here is a list of the Events going on today ");
-            System.out.println(Arrays.toString(sportEvent.Baseball));
-            System.out.println("Which Event would you like");
+            for (String s : Arrays.asList(Arrays.toString(sportEvent.Baseball), "Which Event would you like")) {
+                System.out.println(s);
+            }
         }
         int sportChoice = keyboard.nextInt();
         switch (sportChoice){

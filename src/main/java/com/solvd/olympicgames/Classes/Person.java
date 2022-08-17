@@ -1,5 +1,5 @@
-package main.java.com.solvd.olympicgames.Classes;
-public class Person {
+package com.solvd.olympicgames.Classes;
+ public class Person {
     public String name;
     public String lastName;
 

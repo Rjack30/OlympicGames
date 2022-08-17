@@ -1,4 +1,4 @@
-package main.java.com.solvd.olympicgames.Classes;
+package com.solvd.olympicgames.Classes;
 
 public class Car {
     public String model;
