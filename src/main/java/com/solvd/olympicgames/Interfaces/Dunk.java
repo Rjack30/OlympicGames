@@ -1,4 +1,4 @@
-package main.java.com.solvd.olympicgames.Interfaces;
+package com.solvd.olympicgames.Interfaces;
 
 
 
