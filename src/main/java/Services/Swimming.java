@@ -1,7 +1,9 @@
-package main.java.com.solvd.olympicgames.Classes;
-import java.util.Scanner;
-public class BasketballGame {
+package Services;
 
+import java.util.Scanner;
+
+
+public  class Swimming {
     public static void main(String[] args) {
         System.out.println("Do you want to watch basketball game? (Y/N)");
         Scanner userinput = new Scanner(System.in);
@@ -24,7 +26,7 @@ public class BasketballGame {
             System.out.println("How many days? (1,2,3,4");
             Scanner dayinput = new Scanner(System.in);
             int day = dayinput.nextInt();
-        
+
             if(day == 1) {
                 System.out.println("Do you want to watch: "+day+" day! ");
             } else if (day == 2) {
@@ -35,7 +37,19 @@ public class BasketballGame {
                 System.out.println("Do you want to watch: "+day+" day! ");
             }
         }else{
-       System.out.println("Bye have a nice day");
+            System.out.println("Bye have a nice day");
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+

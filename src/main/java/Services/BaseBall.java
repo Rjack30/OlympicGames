@@ -1,11 +1,10 @@
-package main.java.com.solvd.olympicgames.Classes;
+package Services;
 
 import java.util.Scanner;
 
-public class VolleyBall {
-
+public class BaseBall {
     public static void main(String[] args) {
-        System.out.println("Do you want to watch basketball game? (Y/N)");
+        System.out.println("Do you want to watch baseball game? (Y/N)");
         Scanner userinput = new Scanner(System.in);
         String answer = userinput.nextLine();
         boolean play = false;
@@ -41,4 +40,8 @@ public class VolleyBall {
         }
     }
 }
+
+
+
+
 

@@ -13,6 +13,11 @@ package com.solvd.olympicgames.AbstractClasses;
          this.number = 0;
      }
 
+     public Customer(int number) {
+
+         this.number = number;
+     }
+
 
      public String toString() {
          return name + " " + number;

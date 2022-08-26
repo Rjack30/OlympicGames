@@ -1,4 +1,4 @@
-package main.java.com.solvd.olympicgames.Classes;
+package Entity;
 import java.util.HashMap;
 
 class Cities {

@@ -1,4 +1,4 @@
-package com.solvd.olympicgames.Classes;
+package Entity;
  public class Person {
     public String name;
     public String lastName;
@@ -7,7 +7,7 @@ package com.solvd.olympicgames.Classes;
         this.name = name;
         this.lastName = lastName;
     }
-
+@Override
     public String toString() {
         return "[" + name + " " + lastName + "]";
     }

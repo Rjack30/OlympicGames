@@ -1,6 +1,6 @@
 package com.solvd.olympicgames.AbstractClasses;
 
-public class Ticket {
+public abstract class Ticket {
     private final int number = 0;
     String name;
 double ticketPrice;
@@ -9,6 +9,10 @@ double ticketPrice;
         System.out.println("The  Price of ticket: 12 dollars ");
         this.name = name;
         this.ticketPrice = number;
+    }
+
+    public double getTicketPrice() {
+        return ticketPrice;
     }
 
     public String toString() {

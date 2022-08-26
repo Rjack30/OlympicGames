@@ -1,9 +1,11 @@
-package com.solvd.olympicgames.Classes;
+package Services;
 
 
 import java.util.Arrays;
 import java.util.Scanner;
 
+import Entity.Person;
+import Entity.SportEvent;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 import java.time.LocalDateTime;
@@ -15,15 +17,15 @@ public class Main {
         var person1 = new Person("Jonh", "Gold");
         var person2 = new Person("James", "Miller");
         // create 2 cars
-        var car1 = new Car("Tesla Model S", 2020, person1);
-        var car2 = new Car("Tesla Model X", 2020, person2);
+        var game1 = new Game("Baseball Ballers", 2020, person1);
+        var game2 = new Game("NBA 2k 2021", 2020, person2);
         // logging
         logger.debug("Some debug log");
         logger.info("Person1: " + person1);
-        logger.info("Car2: " + car2);
+        logger.info("Game2: " + game2);
         logger.warn("Warning accrued at " + LocalDateTime.now());
         logger.error("Error accrued at " + LocalDateTime.now());
-        logger.fatal("Serious problem with car " + car1 + " accrued at " + LocalDateTime.now());
+        logger.fatal("Serious problem with car " + game1 + " accrued at " + LocalDateTime.now());
 
         Scanner keyboard = new Scanner(System.in);
 
@@ -85,6 +87,8 @@ public class Main {
     }
 
 
+    private static class Cities {
+    }
 }
 
 
